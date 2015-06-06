@@ -6,13 +6,11 @@ BBFILES ?= ""
 
 BBLAYERS ?= " \
     ##OEROOT##/meta \
-    ##OEROOT##/meta-yocto \
     ##OEROOT##/meta-raspberrypi-bsp \
     ##OEROOT##/meta-rose \
     ##OEROOT##/meta-villa \
     "
 BBLAYERS_NON_REMOVABLE ?= " \
     ##OEROOT##/meta \
-    ##OEROOT##/meta-yocto \
     ##OEROOT##/meta-rose \
     "
