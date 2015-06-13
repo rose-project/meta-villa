@@ -1,6 +1,6 @@
 DESCRIPTION = "A simple headless linux image"
 
-IMAGE_FEATURES += "ssh-server-dropbear"
+IMAGE_FEATURES += "ssh-server-dropbear splash"
 
 LICENSE = "MIT"
 
