@@ -7,6 +7,4 @@ LICENSE = "MIT"
 inherit core-image
 
 IMAGE_INSTALL += " \
-    wayland \
-    weston \
     "
