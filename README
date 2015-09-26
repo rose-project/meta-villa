@@ -10,15 +10,15 @@ Dependencies
 This layer depends on:
 
   URI: git://git.openembedded.org/bitbake
-  branch: master
+  branch: 1.26
 
   URI: git://git.openembedded.org/openembedded-core
   layers: meta
-  branch: master
+  branch: fido
 
-  URI: git://git.yoctoproject.org/meta-yocto
-  layers: meta-yocto
-  branch: master
+  URI: git clone -b fido https://github.com/meta-qt5/meta-qt5.git
+  layers: meta-qt5
+  branch: fido
 
   URI: https://github.com/rose-project/meta-rose
   layers: meta-rose
@@ -61,9 +61,9 @@ other layers needed. e.g.:
 
   BBLAYERS ?= " \
     /path/to/yocto/meta \
-    /path/to/yocto/meta-yocto \
-    /path/to/yocto/meta-rose \
     /path/to/yocto/meta-raspberrypi-bsp \
+    /path/to/yocto/meta-rose \
+    /path/to/yocto/meta-qt5 \
     /path/to/yocto/meta-villa \
     "
 
@@ -72,3 +72,11 @@ II. Misc
 ========
 
 --- replace with specific information about the villa layer ---
+
+
+III. Copyright
+==============
+
+Parts of this resotitory reuse content from 
+http://git.openembedded.org/meta-openembedded/
+
