@@ -20,7 +20,6 @@ RDEPENDS_packagegroup-qt5-all = "\
     qtbase-fonts-ttf-vera \
     qt3d \
     qt3d-qmlplugins \
-    qt3d-tools \
     qtdeclarative \
     qtdeclarative-plugins \
     qtdeclarative-qmlplugins \
