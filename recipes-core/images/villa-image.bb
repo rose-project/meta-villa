@@ -11,7 +11,12 @@ SRC_URI = "file://${FILE_DIRNAME}/raspberrypi-sdimg.wks"
 
 WKS_FILES = "raspberrypi-sdimg.wks"
 
+CORE_IMAGE_BASE_INSTALL += "mesa-megadriver"
+
 IMAGE_INSTALL += " \
+    weston \
+    weston-init \
+    weston-examples \
     packagegroup-qt5-all \
     gstreamer1.0-meta-base \
     gstreamer1.0-meta-video \

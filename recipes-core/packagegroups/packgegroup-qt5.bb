@@ -10,6 +10,7 @@ PACKAGES = "\
 
 RDEPENDS_packagegroup-qt5-all = "\
     qtbase \
+    qtbase-dev \
     qtbase-tools \
     qtbase-plugins \
     qtbase-fonts \
@@ -55,28 +56,14 @@ RDEPENDS_packagegroup-qt5-all = "\
     qtxmlpatterns-tools \
     qtquickcontrols-qmlplugins \
     qtquick1 \
-    qtbase-examples \
-    qt3d-examples \
-    qtdeclarative-examples \
-    qtmultimedia-examples \
-    qtsvg-examples \
-    qtconnectivity-examples \
-    qtlocation-examples \
-    qtscript-examples \
-    qtsensors-examples \
-    qtsystems-examples \
-    qttools-examples \
-    qtxmlpatterns-examples \    
-    qtquickcontrols-examples \
-    cinematicexperience \
-    qt5everywheredemo \
-    qt5ledscreen \
-    qt5nmapcarousedemo \
-    qt5nmapper \
-    qtsmarthome \
-    quitbattery \
     quitindicators \
     qsiv \
-    qt5-demo-extrafiles \
-    qtwebkit-examples-examples \
+    qtsmarthome \
+    quitindicators \
+    qt5nmapper \
+    quitbattery \
+    qt5ledscreen \
+    cinematicexperience \
+    qt5everywheredemo \
+    qt5nmapcarousedemo \
     "
