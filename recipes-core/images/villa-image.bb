@@ -17,6 +17,7 @@ IMAGE_INSTALL += " \
     weston \
     weston-init \
     weston-examples \
+    librps \
     packagegroup-qt5-all \
     gstreamer1.0-meta-base \
     gstreamer1.0-meta-video \
