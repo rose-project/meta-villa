@@ -12,11 +12,6 @@ SRC_URI = "file://${FILE_DIRNAME}/raspberrypi-sdimg.wks"
 WKS_FILES = "raspberrypi-sdimg.wks"
 
 IMAGE_INSTALL += " \
-    gstreamer1.0-meta-base \
-    gstreamer1.0-meta-video \
-    gstreamer1.0-libav \
-    gstreamer1.0-plugins-bad-fbdevsink \
-    gstreamer1.0-plugins-bad-mpegpsdemux \
 "
 
 IMAGE_FSTYPES = "ext4 wic.gz"
