@@ -3,6 +3,7 @@ DESCRIPTION = "A simple headless linux image"
 IMAGE_FEATURES += "ssh-server-dropbear splash"
 
 LICENSE = "MIT"
+LIC_FILES_CHKSUM = "file://${FILE_DIRNAME}/${BPN}/COPYING;md5=35088ff006d41b8e2499350c3840d844"
 
 inherit core-image
 
